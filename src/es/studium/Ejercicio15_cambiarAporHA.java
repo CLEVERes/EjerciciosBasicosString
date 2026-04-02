@@ -15,24 +15,21 @@ public class Ejercicio15_cambiarAporHA
 	{
 		System.out.println("Escriba Un texto");
 		String txt = teclado.nextLine();
-		
-		
+
 		String cadena = "";
 		for (int i = 0; i < txt.length(); i++)
 		{
 			if (txt.toLowerCase().charAt(i) == 'a')
 			{
 				cadena += "ha";
-			}
-			else
+			} else
 			{
 				cadena += txt.charAt(i);
 			}
 		}
-		
-		
-		//String cadena = txt.toLowerCase().replace("a", "ha");
-		
-		System.out.println("Este es el resultado de cambiar las \"a\" por \"o\": \n" +  cadena);
+
+		// String cadena = txt.toLowerCase().replace("a", "ha");
+
+		System.out.println("Este es el resultado de cambiar las \"a\" por \"o\": \n" + cadena);
 	}
 }
