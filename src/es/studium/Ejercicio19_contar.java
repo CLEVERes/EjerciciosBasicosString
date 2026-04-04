@@ -23,8 +23,8 @@ public class Ejercicio19_contar
 			if (Character.isLetter(elemento))
 			{
 				contadorLetras++;
-			} 
-			
+			}
+
 			else if (Character.isDigit(elemento))
 			{
 				contadorNumeros++;
